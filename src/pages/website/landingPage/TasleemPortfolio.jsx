@@ -375,7 +375,7 @@ const TasleemPortfolio = () => {
               <Phone className="contact-icon" />
               <div>
                 <p style={{ fontSize: '0.8rem', opacity: 0.7 }}>Phone</p>
-                <p style={{ fontWeight: 600 }}>+92 317 6912657</p>
+                <p style={{ fontWeight: 600 }}>+92 319 7390366</p>
               </div>
             </div>
             <div className="contact-info-item">
