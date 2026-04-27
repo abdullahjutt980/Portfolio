@@ -329,7 +329,7 @@ const TasleemPortfolio = () => {
               </div>
             </div>
 
-            <h3 className="skill-category-title" style={{ marginTop: '4rem' }}>Languages</h3>
+            <h3 className="skill-category-title languages-title">Languages</h3>
             <div className="lang-list">
               <div className="lang-item"><span>Urdu</span> <span className="text-gold">(Native)</span></div>
               <div className="lang-item"><span>English</span> <span className="text-gold">(Fluent)</span></div>
@@ -423,13 +423,13 @@ const TasleemPortfolio = () => {
       </section>
 
       {/* Footer */}
-      <footer style={{ background: '#121212', color: '#fff', padding: '40px 10%', textAlign: 'center' }}>
+      <footer className="portfolio-footer">
         <h2 className="heading-serif" style={{ fontSize: '1.5rem', marginBottom: '10px' }}>TASLEEM KOUSAR</h2>
         <p style={{ opacity: 0.5, fontSize: '0.9rem' }}>© 2026 Tasleem Kousar. All rights reserved.</p>
       </footer>
 
       {/* Floating Back to Top Button */}
-      <button className="nav-btn" onClick={scrollToTop} style={{ position: 'fixed', bottom: '2rem', right: '2rem', zIndex: 100, background: 'var(--portfolio-gold)', color: '#fff', border: 'none', width: '50px', height: '50px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifySelf: 'center', cursor: 'pointer', boxShadow: '0 5px 15px rgba(0,0,0,0.2)' }}>
+      <button className="nav-btn-top" onClick={scrollToTop}>
         <ChevronUp style={{ margin: '0 auto' }} />
       </button>
 
