@@ -410,7 +410,7 @@ const TasleemPortfolio = () => {
               </div>
               <div className="form-group full-width">
                 <label>Message</label>
-                <textarea placeholder="Tell me about your project..."></textarea>
+                <textarea placeholder="Tell me about your project.."></textarea>
               </div>
               <div className="form-group full-width">
                 <button type="submit" className="btn-primary" style={{ width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
