@@ -98,12 +98,12 @@ section {
 
 /* Hero Section */
 .hero-section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0;
+  padding: 100px 20px;
   color: var(--portfolio-white);
   position: relative;
 }
@@ -171,6 +171,14 @@ section {
   animation: fadeInUp 1s ease 0.2s both;
 }
 
+@media (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
 .hero-desc {
   font-size: 1.1rem;
   max-width: 700px;
@@ -183,7 +191,7 @@ section {
 @media (max-width: 768px) {
   .hero-desc {
     font-size: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -228,9 +236,9 @@ section {
 
 .btn-outline {
   background: transparent;
-  color: var(--portfolio-white);
+  color: var(--portfolio-gold);
   padding: 15px 35px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--portfolio-gold);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -240,8 +248,8 @@ section {
 }
 
 .btn-outline:hover {
-  border-color: var(--portfolio-gold);
-  color: var(--portfolio-gold);
+  background: var(--portfolio-gold);
+  color: var(--portfolio-white);
 }
 
 /* Skills Section */
